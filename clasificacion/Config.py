@@ -1,0 +1,17 @@
+# Datos de configuracion do adestramento
+SEMENTE=None
+RUTA_DATASET="../../Datasets/clasificacion/DS_50tam"
+IMX_ALTO=50#125
+IMX_ANCHO=50#125
+NUM_ITERACIONS=3
+NUM_DIM_ULTCAPA=1
+BASE_ROUTE=""
+LEARNING_RATE=0.002
+EPOCHS=30
+BATCH_TAM=16 # Pot de 2
+TRAIN_SPLIT=0.8
+VALIDACION_SPLIT=0.1
+TEST_SPLIT=0.1
+MIN_DELTA=0.002
+PACIENCIA=6
+CLASES=["Estradas", "Edificios", "Libre"]
